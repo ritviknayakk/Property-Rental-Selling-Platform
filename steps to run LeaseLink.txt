@@ -1,0 +1,11 @@
+TO run, you need 2 terminals open
+
+1. cd LeaseLinkMain
+npm run dev
+
+This will give the link to open the site
+
+2. node index.js
+This will connect to the database
+
+Then you need to open MongoDB compass and connect from there also

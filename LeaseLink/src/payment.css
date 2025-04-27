@@ -1,0 +1,148 @@
+/* Use an import with high priority */
+/* @import url('style.css') screen; Optional: import other styles you want to override */
+
+/* Use a specific attribute selector for higher specificity */
+div[class="payment-page"] {
+  display: flex !important;
+  min-height: 100vh !important;
+  background-color: #f5f5f5 !important;
+  font-family: Arial, sans-serif !important;
+  width: 100% !important;
+  position: relative !important;
+}
+
+/* Using multiple class combinations increases specificity */
+.payment-page.payment-page {
+  display: flex !important;
+  min-height: 100vh !important;
+  background-color: #f5f5f5 !important;
+  font-family: Arial, sans-serif !important;
+  width: 100% !important;
+  position: relative !important;
+}
+
+/* Extremely high specificity selector */
+html body .payment-page .property-image-section {
+  flex: 1 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  background-color: #f0f0f0 !important;
+  padding: 20px !important;
+  overflow: hidden !important;
+}
+
+html body .payment-page .property-image {
+  max-width: 100% !important;
+  max-height: 80vh !important;
+  object-fit: cover !important;
+  border-radius: 8px !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1) !important;
+}
+
+html body .payment-page .payment-info-section {
+  flex: 1 !important;
+  padding: 40px !important;
+  background-color: white !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+}
+
+html body .payment-page .payment-info-section h2 {
+  margin-bottom: 24px !important;
+  color: #333 !important;
+  font-size: 24px !important;
+  font-weight: 600 !important;
+  line-height: 1.2 !important;
+}
+
+html body .payment-page .payment-info-section p {
+  margin-bottom: 16px !important;
+  color: #444 !important;
+  font-size: 16px !important;
+  line-height: 1.5 !important;
+}
+
+html body .payment-page .property-summary {
+  margin-bottom: 24px !important;
+  padding: 16px !important;
+  background-color: #f9f9f9 !important;
+  border-radius: 8px !important;
+  border: 1px solid #eee !important;
+}
+
+html body .payment-page .property-summary h3 {
+  margin-bottom: 10px !important;
+  color: #333 !important;
+  font-size: 18px !important;
+}
+
+html body .payment-page .payment-form {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 16px !important;
+  margin-top: 20px !important;
+  width: 100% !important;
+}
+
+html body .payment-page .payment-form label {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 6px !important;
+  font-weight: 500 !important;
+  color: #555 !important;
+  width: 100% !important;
+}
+
+html body .payment-page .payment-form input {
+  padding: 12px !important;
+  border: 1px solid #ddd !important;
+  border-radius: 4px !important;
+  font-size: 16px !important;
+  transition: border-color 0.3s !important;
+  width: 100% !important;
+  background-color: white !important;
+  color: #333 !important;
+}
+
+html body .payment-page .payment-form input:focus {
+  border-color: #4a90e2 !important;
+  outline: none !important;
+  box-shadow: 0 0 0 2px rgba(74, 144, 226, 0.2) !important;
+}
+
+html body .payment-page .confirm-btn {
+  margin-top: 12px !important;
+  padding: 14px !important;
+  background-color: #4caf50 !important;
+  color: white !important;
+  border: none !important;
+  border-radius: 4px !important;
+  font-size: 16px !important;
+  font-weight: bold !important;
+  cursor: pointer !important;
+  transition: background-color 0.3s !important;
+  width: 100% !important;
+  text-align: center !important;
+}
+
+html body .payment-page .confirm-btn:hover {
+  background-color: #45a049 !important;
+}
+
+/* Responsive design with important flags */
+@media (max-width: 768px) {
+  html body .payment-page {
+    flex-direction: column !important;
+  }
+  
+  html body .payment-page .property-image-section {
+    padding: 20px !important;
+    max-height: 40vh !important;
+  }
+  
+  html body .payment-page .payment-info-section {
+    padding: 20px !important;
+  }
+}

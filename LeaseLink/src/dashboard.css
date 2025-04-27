@@ -1,0 +1,86 @@
+.dashboard-container {
+    width: 90%;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: #000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .dashboard-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #000;
+  }
+  
+  .input-field {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-field label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .input-field input[type="text"],
+  .input-field input[type="number"],
+  .input-field input[type="file"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+    color: #000000;
+  }
+  
+  /* Checkbox group styles */
+  .checkbox-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    color: #000;
+  }
+  
+  .checkbox-group label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+  }
+  
+  /* Radio group styles */
+  .radio-group {
+    display: flex;
+    gap: 20px;
+    color: #000;
+  }
+  
+  .radio-group label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #fff;
+    color: #000;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #000;
+    color: #fff;
+  }
+  

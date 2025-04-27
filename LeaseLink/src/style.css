@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', sans-serif;
+  }
+  
+  header {
+    height: 80px;
+    background-color: #ffcc06;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+  }
+  
+  .logo {
+    font-style: italic;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: default;
+  }
+  
+  .nav_items a {
+    color: black;
+    text-decoration: none;
+    margin-left: 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .nav_items a:hover {
+    color: white;
+  }
+  
+  /* Hero Section */
+  .hero {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffcc06;
+    padding: 2rem;
+  }
+  
+  .content {
+    flex: 1 1 500px;
+    padding: 2rem;
+    color: black;
+  }
+  
+  .content h1 {
+    margin-bottom: 1rem;
+  }
+  
+  .content p {
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
+  .hero-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  #a,
+  #b {
+    background-color: black;
+    color: #ffcc06;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 40px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  #a:hover,
+  #b:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  .mainimg {
+    flex: 1 1 400px;
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+  }
+  
+  /* Features Section */
+  .container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2rem;
+    background-color: #ffcc06;
+    color: black;
+    text-align: center;
+  }
+  
+  .container2 div {
+    flex: 1 1 300px;
+    margin: 1rem;
+  }
+  
+  .container2 h1 {
+    margin-bottom: 1rem;
+  }
+  
+  .container2 p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+  }
+  
